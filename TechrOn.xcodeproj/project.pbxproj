@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B68BA2C319261FDF00916326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68BA2C219261FDF00916326 /* Foundation.framework */; };
+		B68BA2C519261FDF00916326 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68BA2C419261FDF00916326 /* CoreGraphics.framework */; };
+		B68BA2C719261FDF00916326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68BA2C619261FDF00916326 /* UIKit.framework */; };
+		B68BA2CD19261FE000916326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B68BA2CB19261FE000916326 /* InfoPlist.strings */; };
+		B68BA2CF19261FE000916326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B68BA2CE19261FE000916326 /* main.m */; };
+		B68BA2D319261FE000916326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B68BA2D219261FE000916326 /* AppDelegate.m */; };
+		B68BA2D619261FE000916326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68BA2D419261FE000916326 /* Main.storyboard */; };
+		B68BA2D919261FE000916326 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68BA2D819261FE000916326 /* ViewController.m */; };
+		B68BA2DB19261FE000916326 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68BA2DA19261FE000916326 /* Images.xcassets */; };
+		B68BA2E219261FE000916326 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68BA2E119261FE000916326 /* XCTest.framework */; };
+		B68BA2E319261FE000916326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68BA2C219261FDF00916326 /* Foundation.framework */; };
+		B68BA2E419261FE000916326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68BA2C619261FDF00916326 /* UIKit.framework */; };
+		B68BA2EC19261FE000916326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B68BA2EA19261FE000916326 /* InfoPlist.strings */; };
+		B68BA2EE19261FE000916326 /* TechrOnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68BA2ED19261FE000916326 /* TechrOnTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B68BA2E519261FE000916326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B68BA2B719261FDF00916326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B68BA2BE19261FDF00916326;
+			remoteInfo = TechrOn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B68BA2BF19261FDF00916326 /* TechrOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechrOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68BA2C219261FDF00916326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B68BA2C419261FDF00916326 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B68BA2C619261FDF00916326 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B68BA2CA19261FDF00916326 /* TechrOn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TechrOn-Info.plist"; sourceTree = "<group>"; };
+		B68BA2CC19261FE000916326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B68BA2CE19261FE000916326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B68BA2D019261FE000916326 /* TechrOn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TechrOn-Prefix.pch"; sourceTree = "<group>"; };
+		B68BA2D119261FE000916326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B68BA2D219261FE000916326 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B68BA2D519261FE000916326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B68BA2D719261FE000916326 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B68BA2D819261FE000916326 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B68BA2DA19261FE000916326 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B68BA2E019261FE000916326 /* TechrOnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechrOnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68BA2E119261FE000916326 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B68BA2E919261FE000916326 /* TechrOnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TechrOnTests-Info.plist"; sourceTree = "<group>"; };
+		B68BA2EB19261FE000916326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B68BA2ED19261FE000916326 /* TechrOnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechrOnTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B68BA2BC19261FDF00916326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68BA2C519261FDF00916326 /* CoreGraphics.framework in Frameworks */,
+				B68BA2C719261FDF00916326 /* UIKit.framework in Frameworks */,
+				B68BA2C319261FDF00916326 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68BA2DD19261FE000916326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68BA2E219261FE000916326 /* XCTest.framework in Frameworks */,
+				B68BA2E419261FE000916326 /* UIKit.framework in Frameworks */,
+				B68BA2E319261FE000916326 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B68BA2B619261FDF00916326 = {
+			isa = PBXGroup;
+			children = (
+				B68BA2C819261FDF00916326 /* TechrOn */,
+				B68BA2E719261FE000916326 /* TechrOnTests */,
+				B68BA2C119261FDF00916326 /* Frameworks */,
+				B68BA2C019261FDF00916326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B68BA2C019261FDF00916326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B68BA2BF19261FDF00916326 /* TechrOn.app */,
+				B68BA2E019261FE000916326 /* TechrOnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B68BA2C119261FDF00916326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B68BA2C219261FDF00916326 /* Foundation.framework */,
+				B68BA2C419261FDF00916326 /* CoreGraphics.framework */,
+				B68BA2C619261FDF00916326 /* UIKit.framework */,
+				B68BA2E119261FE000916326 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B68BA2C819261FDF00916326 /* TechrOn */ = {
+			isa = PBXGroup;
+			children = (
+				B68BA2D119261FE000916326 /* AppDelegate.h */,
+				B68BA2D219261FE000916326 /* AppDelegate.m */,
+				B68BA2D419261FE000916326 /* Main.storyboard */,
+				B68BA2D719261FE000916326 /* ViewController.h */,
+				B68BA2D819261FE000916326 /* ViewController.m */,
+				B68BA2DA19261FE000916326 /* Images.xcassets */,
+				B68BA2C919261FDF00916326 /* Supporting Files */,
+			);
+			path = TechrOn;
+			sourceTree = "<group>";
+		};
+		B68BA2C919261FDF00916326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B68BA2CA19261FDF00916326 /* TechrOn-Info.plist */,
+				B68BA2CB19261FE000916326 /* InfoPlist.strings */,
+				B68BA2CE19261FE000916326 /* main.m */,
+				B68BA2D019261FE000916326 /* TechrOn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B68BA2E719261FE000916326 /* TechrOnTests */ = {
+			isa = PBXGroup;
+			children = (
+				B68BA2ED19261FE000916326 /* TechrOnTests.m */,
+				B68BA2E819261FE000916326 /* Supporting Files */,
+			);
+			path = TechrOnTests;
+			sourceTree = "<group>";
+		};
+		B68BA2E819261FE000916326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B68BA2E919261FE000916326 /* TechrOnTests-Info.plist */,
+				B68BA2EA19261FE000916326 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B68BA2BE19261FDF00916326 /* TechrOn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68BA2F119261FE000916326 /* Build configuration list for PBXNativeTarget "TechrOn" */;
+			buildPhases = (
+				B68BA2BB19261FDF00916326 /* Sources */,
+				B68BA2BC19261FDF00916326 /* Frameworks */,
+				B68BA2BD19261FDF00916326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechrOn;
+			productName = TechrOn;
+			productReference = B68BA2BF19261FDF00916326 /* TechrOn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B68BA2DF19261FE000916326 /* TechrOnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68BA2F419261FE000916326 /* Build configuration list for PBXNativeTarget "TechrOnTests" */;
+			buildPhases = (
+				B68BA2DC19261FE000916326 /* Sources */,
+				B68BA2DD19261FE000916326 /* Frameworks */,
+				B68BA2DE19261FE000916326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B68BA2E619261FE000916326 /* PBXTargetDependency */,
+			);
+			name = TechrOnTests;
+			productName = TechrOnTests;
+			productReference = B68BA2E019261FE000916326 /* TechrOnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B68BA2B719261FDF00916326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yuki Watanabe";
+				TargetAttributes = {
+					B68BA2DF19261FE000916326 = {
+						TestTargetID = B68BA2BE19261FDF00916326;
+					};
+				};
+			};
+			buildConfigurationList = B68BA2BA19261FDF00916326 /* Build configuration list for PBXProject "TechrOn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B68BA2B619261FDF00916326;
+			productRefGroup = B68BA2C019261FDF00916326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B68BA2BE19261FDF00916326 /* TechrOn */,
+				B68BA2DF19261FE000916326 /* TechrOnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B68BA2BD19261FDF00916326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68BA2DB19261FE000916326 /* Images.xcassets in Resources */,
+				B68BA2CD19261FE000916326 /* InfoPlist.strings in Resources */,
+				B68BA2D619261FE000916326 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68BA2DE19261FE000916326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68BA2EC19261FE000916326 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B68BA2BB19261FDF00916326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68BA2D919261FE000916326 /* ViewController.m in Sources */,
+				B68BA2D319261FE000916326 /* AppDelegate.m in Sources */,
+				B68BA2CF19261FE000916326 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68BA2DC19261FE000916326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68BA2EE19261FE000916326 /* TechrOnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B68BA2E619261FE000916326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B68BA2BE19261FDF00916326 /* TechrOn */;
+			targetProxy = B68BA2E519261FE000916326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B68BA2CB19261FE000916326 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B68BA2CC19261FE000916326 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B68BA2D419261FE000916326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B68BA2D519261FE000916326 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B68BA2EA19261FE000916326 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B68BA2EB19261FE000916326 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B68BA2EF19261FE000916326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B68BA2F019261FE000916326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B68BA2F219261FE000916326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechrOn/TechrOn-Prefix.pch";
+				INFOPLIST_FILE = "TechrOn/TechrOn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B68BA2F319261FE000916326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechrOn/TechrOn-Prefix.pch";
+				INFOPLIST_FILE = "TechrOn/TechrOn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B68BA2F519261FE000916326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TechrOn.app/TechrOn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechrOn/TechrOn-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TechrOnTests/TechrOnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B68BA2F619261FE000916326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TechrOn.app/TechrOn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechrOn/TechrOn-Prefix.pch";
+				INFOPLIST_FILE = "TechrOnTests/TechrOnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B68BA2BA19261FDF00916326 /* Build configuration list for PBXProject "TechrOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68BA2EF19261FE000916326 /* Debug */,
+				B68BA2F019261FE000916326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B68BA2F119261FE000916326 /* Build configuration list for PBXNativeTarget "TechrOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68BA2F219261FE000916326 /* Debug */,
+				B68BA2F319261FE000916326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B68BA2F419261FE000916326 /* Build configuration list for PBXNativeTarget "TechrOnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68BA2F519261FE000916326 /* Debug */,
+				B68BA2F619261FE000916326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B68BA2B719261FDF00916326 /* Project object */;
+}
